@@ -1,4 +1,4 @@
-# 🛡️ Quantum Bitcoin ($QBTC) - W-PROTOCOL v1.0.4
+# 🛡️ Quantum Bitcoin ($QBTC) - W-PROTOCOL v1.1.0
 
 Quantum Bitcoin is a decentralized protocol built on the Solana blockchain, specifically designed to address the challenges of the upcoming quantum era. 
 
