@@ -1,27 +1,31 @@
-# 🛡️ Quantum Bitcoin ($QBTC) - W-Protocol Core
+# 🛡️ Quantum Bitcoin ($QBTC) - W-PROTOCOL v1.0.4
 
-![License: MIT](https://shields.io)
-![Language: Python](https://shields.io)
-![Network: Solana](https://shields.io)
+Quantum Bitcoin is a decentralized protocol built on the Solana blockchain, specifically designed to address the challenges of the upcoming quantum era. 
 
-## Overview
-**Quantum Bitcoin ($QBTC)** is a next-generation digital asset protocol designed to withstand the threat of quantum supremacy. While classical cryptography faces potential vulnerabilities from future quantum processors, QBTC introduces the **W-Protocol** layer.
+### 🛡️ Quantum Resistance
+QBTC utilizes the **W-PROTOCOL**, which integrates:
+* **Lattice-based Cryptography:** Protection against quantum threats (Shor's algorithm).
+* **Double-Layer Hashing:** Using SHA-384 and SHA-256 for enhanced security.
+* **Entropy-driven Block Validation:** Unique approach to secure decentralized data.
 
-This repository contains the core logic for the **Hybrid Security Infrastructure**, initialized and managed via decentralized mobile nodes.
+### 📊 Tokenomics
+* **Total Supply:** 1,000,000,000 $QBTC
+* **Dev Allocation:** 3.4% (HODLed by Founder)
+* **Network:** Solana (SPL)
+* **Contract Address (CA):** `CELKAurjeP8cPWbGgqXRN45mz9woacPdFePFG8nfpump`
 
-## Key Features
-- **W-Protocol v1.0.4:** Post-quantum lattice-based signature logic.
-- **Mobile-First Genesis:** Initialized from a secure handheld iPhone node.
-- **Hybrid Architecture:** Solana L1 for liquidity + Python for PQC verification.
-- **Vision:** Transitioning towards "Proof of Useful Work" using mobile AI computations.
+### ⚙️ Technical Core
+The current implementation (`core_logic.py`) demonstrates the W-PROTOCOL logic:
+1. Quantum-safe address generation simulation.
+2. High-entropy seed management on mobile nodes.
+3. Multi-stage cryptographic verification.
 
-## Technical Specifications
-- **Ticker:** $QBTC
-- **Network:** Solana (SPL Token)
-- **Contract Address (CA):** `CELKAurjeP8cPWbGgqXRN45mz9woacPdFePFG8nfpump`
-- **Core Engine:** Python 3.x / W-Protocol Logic
+### 🔗 Resources
+* **Official Website:** [https://carrd.co](https://carrd.co)
+* **Trade on Pump.fun:** [Buy $QBTC on Pump.fun](https://pump.fun)
 
-## Links
-- **Official Website:** [quantum-btc.carrd.co](https://carrd.co)
-- **Trade on Pump.fun:** [Buy $QBTC](https://pump.fun)
+---
+*Disclaimer: QBTC is a technological experiment in post-quantum cryptography on the Solana blockchain.*
+
+
 
