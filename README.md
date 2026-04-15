@@ -21,7 +21,7 @@ The current implementation (`core_logic.py`) demonstrates the W-PROTOCOL logic:
 3. Multi-stage cryptographic verification.
 
 ### 🔗 Resources
-* **Official Website:** [https://carrd.co](https://carrd.co)
+* **Official Website:**  https://quantum-btc.carrd.co/
 * **Trade on Pump.fun:** [Buy $QBTC on Pump.fun](https://pump.fun)
 
 ---
