@@ -1,34 +1,34 @@
 # 🛡️ Quantum Bitcoin ($QBTC)
 
-**Quantum Bitcoin** — это первый защищенный от квантовых вычислений актив на базе Solana, использующий протокол **W-PROTOCOL v1.1.0**.
+**Quantum Bitcoin** is the first quantum-resistant asset on Solana, powered by the cutting-edge **W-PROTOCOL v1.1.0**.
 
 ---
 
-## 🚀 Почему QBTC?
-Традиционные блокчейны (BTC, ETH, SOL) уязвимы перед квантовыми компьютерами. Мы внедряем **Lattice-Based Cryptography** (криптографию на решетках), чтобы защитить ваши средства до того, как квантовая угроза станет реальностью.
+## 🚀 Why QBTC?
+Traditional blockchains (BTC, ETH, SOL) are vulnerable to future quantum computing threats. We implement **Lattice-Based Cryptography** to secure your assets before the "Quantum Apocalypse" becomes a reality.
 
-### 🛠 Технологический стек
-*   **Сеть:** Solana (SPL Token)
-*   **Протокол:** W-Protocol (LWE & SIS основы)
-*   **Безопасность:** SHA-384 + Lattice Shield
+### 🛠 Technical Stack
+*   **Network:** Solana (SPL Token)
+*   **Protocol:** W-Protocol (Based on LWE & SIS)
+*   **Security:** SHA-384 + Lattice Shield
 *   **CA:** `CELKAurjeP8cPWbGgqXRN45mz9woacPdFePFG8nfpump`
 
 ---
 
-## 📂 Структура репозитория
-*   [`WhitePaper.md`](./WhitePaper.md) — Полное техническое описание технологии.
-*   [`car_logic.py`](./car_logic.py) — Симуляция ядра W-Protocol и генерация квантовых ключей.
+## 📂 Repository Structure
+*   [`WhitePaper.md`](./WhitePaper.md) — Comprehensive technical documentation.
+*   [`car_logic.py`](./car_logic.py) — W-Protocol core logic simulation and key generation.
 
 ---
 
-## 🛡️ Статус безопасности: [ACTIVE]
-Блокчейн-ноды QBTC используют систему «Shield», которая предотвращает атаки типа "Harvest Now, Decrypt Later". 
+## 🛡️ Security Status: [ACTIVE]
+QBTC mobile nodes utilize the "Shield" system, preventing "Harvest Now, Decrypt Later" attacks through advanced lattice signatures.
 
 ✅ **Quantum Resistance Verified**
 
 ---
 
-## 🔗 Ссылки
+## 🔗 Links
 [ [Telegram](https://t.me) ] [ [Twitter](https://x.com) ] [ [DexScanner](https://dexscreener.com) ]
 
 
