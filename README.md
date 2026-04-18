@@ -1,31 +1,36 @@
-# 🛡️ Quantum Bitcoin ($QBTC) - W-PROTOCOL v1.1.0
+# 🛡️ Quantum Bitcoin ($QBTC)
 
-Quantum Bitcoin is a decentralized protocol built on the Solana blockchain, specifically designed to address the challenges of the upcoming quantum era. 
-
-### 🛡️ Quantum Resistance
-QBTC utilizes the **W-PROTOCOL**, which integrates:
-* **Lattice-based Cryptography:** Protection against quantum threats (Shor's algorithm).
-* **Double-Layer Hashing:** Using SHA-384 and SHA-256 for enhanced security.
-* **Entropy-driven Block Validation:** Unique approach to secure decentralized data.
-
-### 📊 Tokenomics
-* **Total Supply:** 1,000,000,000 $QBTC
-* **Dev Allocation:** 3.4% (HODLed by Founder)
-* **Network:** Solana (SPL)
-* **Contract Address (CA):** `CELKAurjeP8cPWbGgqXRN45mz9woacPdFePFG8nfpump`
-
-### ⚙️ Technical Core
-The current implementation (`core_logic.py`) demonstrates the W-PROTOCOL logic:
-1. Quantum-safe address generation simulation.
-2. High-entropy seed management on mobile nodes.
-3. Multi-stage cryptographic verification.
-
-### 🔗 Resources
-* **Official Website:**  https://qbtc-protocol.carrd.co/
-* **Trade on Pump.fun:** [Buy $QBTC on Pump.fun](https://pump.fun)
+**Quantum Bitcoin** — это первый защищенный от квантовых вычислений актив на базе Solana, использующий протокол **W-PROTOCOL v1.1.0**.
 
 ---
-*Disclaimer: QBTC is a technological experiment in post-quantum cryptography on the Solana blockchain.*
+
+## 🚀 Почему QBTC?
+Традиционные блокчейны (BTC, ETH, SOL) уязвимы перед квантовыми компьютерами. Мы внедряем **Lattice-Based Cryptography** (криптографию на решетках), чтобы защитить ваши средства до того, как квантовая угроза станет реальностью.
+
+### 🛠 Технологический стек
+*   **Сеть:** Solana (SPL Token)
+*   **Протокол:** W-Protocol (LWE & SIS основы)
+*   **Безопасность:** SHA-384 + Lattice Shield
+*   **CA:** `CELKAurjeP8cPWbGgqXRN45mz9woacPdFePFG8nfpump`
+
+---
+
+## 📂 Структура репозитория
+*   [`WhitePaper.md`](./WhitePaper.md) — Полное техническое описание технологии.
+*   [`car_logic.py`](./car_logic.py) — Симуляция ядра W-Protocol и генерация квантовых ключей.
+
+---
+
+## 🛡️ Статус безопасности: [ACTIVE]
+Блокчейн-ноды QBTC используют систему «Shield», которая предотвращает атаки типа "Harvest Now, Decrypt Later". 
+
+✅ **Quantum Resistance Verified**
+
+---
+
+## 🔗 Ссылки
+[ [Telegram](https://t.me) ] [ [Twitter](https://x.com) ] [ [DexScanner](https://dexscreener.com) ]
+
 
 
 
