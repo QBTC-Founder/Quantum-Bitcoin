@@ -1,35 +1,36 @@
 # 🛡️ Quantum Bitcoin ($QBTC)
 
-**Quantum Bitcoin** is the first quantum-resistant asset on Solana, powered by the cutting-edge **W-PROTOCOL v1.1.0**.
+**Quantum Bitcoin** is the first quantum-resistant asset powered by **W-PROTOCOL v1.1.0** on the Solana network.
 
 ---
 
-## 🚀 Why QBTC?
-Traditional blockchains (BTC, ETH, SOL) are vulnerable to future quantum computing threats. We implement **Lattice-Based Cryptography** to secure your assets before the "Quantum Apocalypse" becomes a reality.
+## 🚀 The Vision
+Traditional cryptography is becoming obsolete with the rise of quantum computing. $QBTC implements **Lattice-Based Cryptography** to protect digital assets against Shor's algorithm and future quantum-level threats.
 
-### 🛠 Technical Stack
-*   **Network:** Solana (SPL Token)
-*   **Protocol:** W-Protocol (Based on LWE & SIS)
-*   **Security:** SHA-384 + Lattice Shield
+### 🛠 Technical Specifications
+*   **Network:** Solana (SPL Standard)
+*   **Protocol:** W-Protocol v1.1.0
+*   **Security Foundation:** Learning With Errors (LWE) & Short Integer Solution (SIS)
+*   **Hash Algorithm:** SHA-384
 *   **CA:** `CELKAurjeP8cPWbGgqXRN45mz9woacPdFePFG8nfpump`
 
 ---
 
-## 📂 Repository Structure
-*   [`WhitePaper.md`](./WhitePaper.md) — Comprehensive technical documentation.
-*   [`car_logic.py`](./car_logic.py) — W-Protocol core logic simulation and key generation.
+## 📂 Repository Content
+*   [`WhitePaper.md`](./WhitePaper.md) — Detailed technical breakdown of the W-Protocol architecture.
+*   [`car_logic.py`](./car_logic.py) — Core simulation of the lattice-based security shield.
 
 ---
 
-## 🛡️ Security Status: [ACTIVE]
-QBTC mobile nodes utilize the "Shield" system, preventing "Harvest Now, Decrypt Later" attacks through advanced lattice signatures.
+## 🛡️ Network Status: [SECURE]
+The QBTC network utilizes a decentralized "Lattice Shield" to prevent "Harvest Now, Decrypt Later" (HNDL) attacks.
 
 ✅ **Quantum Resistance Verified**
 
 ---
 
-## 🔗 Links
-[ [Telegram](https://t.me) ] [ [Twitter](https://x.com) ] [ [DexScanner](https://dexscreener.com) ]
+## 🔗 Community & Charts
+[ [Telegram](https://t.me) ] [ [Twitter](https://x.com) ] [ [DexScreener](https://dexscreener.com) ]
 
 
 
