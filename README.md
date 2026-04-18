@@ -13,7 +13,7 @@ Traditional encryption (ECDSA) used in most blockchains is vulnerable to Shor’
 *   **Protocol:** W-Protocol v1.1.0 (Lattice-Based)
 *   **Security:** SHA-384 Hybrid Hashing + SIS/LWE Encryption
 *   **Target:** AI Agents, Mobile Nodes, and Secure Storage
-*   **CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
+*   **CA:** 8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump
 
 ---
 
