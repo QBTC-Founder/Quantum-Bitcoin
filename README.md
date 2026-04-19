@@ -1,6 +1,4 @@
-Отлично! Текст твоего README.md уже выглядит профессионально, но нам нужно внести в него те самые ключевые правки по токеномике (1 млрд монет), сжиганию и новому графику халвинга, которые мы утвердили.
-Я объединил твой текущий текст с нашими новыми условиями. Вот готовый вариант для обновления на GitHub. Скопируй его полностью:
-------------------------------
+
 ## 🛡️ Quantum Bitcoin ($QBTC) - W-Protocol V2
 Quantum Bitcoin (QBTC) is a next-generation post-quantum resistant asset on the Solana network. This is the Official V2 Launch, featuring the integrated W-Protocol v1.1.0 to secure digital assets and AI agents against future quantum computing threats.
 ------------------------------
