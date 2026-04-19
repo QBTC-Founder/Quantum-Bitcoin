@@ -31,14 +31,9 @@ To ensure long-term value and network security, QBTC utilizes a hyper-deflationa
 ## 🛡️ Security Status: [ACTIVE]
 The network utilizes a decentralized "Lattice Shield" to prevent "Harvest Now, Decrypt Later" (HNDL) attacks. Optimized for high-speed AI-to-AI transactions and protected by Guardians (Decentralized Node Operators).
 ✅ Quantum Resistance Verified
-------------------------------
+-------------------------
 ## 🔗 Links
-[ Telegram ] [ Website ] [ DexScreener ]
-------------------------------
-
-## 🔗 Links
-[ [Telegram]( https://t.me/QuantumBTC_Official] [ [Website](  https://qbtc-protocol.carrd.co/       [[DexScreener]https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu
-
+[ [Telegram](https://t.me/QuantumBTC_Official) ] [ [Website](https://qbtc-protocol.carrd.co/) ] [ [DexScreener](https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu) ]
 
 
 
