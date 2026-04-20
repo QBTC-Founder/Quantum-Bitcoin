@@ -33,7 +33,7 @@ The network utilizes a decentralized "Lattice Shield" to prevent "Harvest Now, D
 ✅ Quantum Resistance Verified
 -------------------------
 ## 🔗 Links
-[ [Telegram](https://t.me/QuantumBTC_Official) ] [ [Website] https://qbtc-w-protocol.tilda.ws/] [ [DexScreener](https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu) ]
+[ [Telegram](https://t.me/QuantumBTC_Official) ] [ [Website https://qbtc-w-protocol.tilda.ws/] [ [DexScreener](https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu) ]
 
 
 
