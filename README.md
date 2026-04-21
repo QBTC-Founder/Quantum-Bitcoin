@@ -73,7 +73,7 @@ The network utilizes a decentralized "Lattice Shield" to prevent "Harvest Now, D
 ------------------------------
 
 ## 🔗 Links
-[ [Telegram](https://t.me) ] [ [Website](https://tilda.ws) ] [ [DexScreener](https://dexscreener.com) ]
+[ [Telegram](https://t.me) ] [ [Website](https://tilda.ws) ] [ [DexScreener] (https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu ]
 
 
 
