@@ -7,6 +7,16 @@ Quantum Bitcoin (QBTC) is a next-generation post-quantum resistant asset on the 
 ## 🚀 Why QBTC V2?
 Traditional encryption (ECDSA) used in most blockchains is vulnerable to Shor’s algorithm. QBTC leverages **Lattice-Based Cryptography**, providing an active "Q-Shield" for decentralized infrastructure and long-term data integrity.
 
+## 🔐 W-Vault: The Quantum Resistance Layer 🛡️
+W-Vault is a decentralized "Security Wrapper" that acts as high-tech armor, upgrading standard cryptographic signatures to post-quantum standards.
+
+* **Lattice-Based Encryption:** Assets are secured using SIS and LWE mathematical structures, unsolvable for quantum processors.
+* **The Migration (Wrapping):** Seamlessly "wrap" $QBTC into a reinforced cryptographic envelope without changing its underlying value.
+* **Adaptive Q-Shield:** The W-Protocol Gateway monitors for anomalies and instantly scales protection against brute-force attacks.
+* **Decentralized Custody:** W-Vault is non-custodial. You remain the sole owner of your keys while the protocol provides the mathematical barrier.
+
+------------------------------
+
 ## 🛠 Technical Specifications
 * **Network:** Solana (SPL Token-2022 Standard)
 * **Total Supply:** 1,000,000,000 QBTC (Fixed)
@@ -50,7 +60,8 @@ To ensure long-term value and network security, QBTC utilizes a hyper-deflationa
 
 ## 📂 Repository Structure
 * **WhitePaper.md** — Comprehensive technical breakdown of the W-Protocol and Q-Shield
-* **car_logic.py** — Core simulation of the post-quantum lattice shield architecture
+* **W-Vault.md** — Detailed architecture of the post-quantum resistance layer
+* **car_logic.py** — Core simulation of the lattice shield architecture
 
 ------------------------------
 
@@ -62,7 +73,8 @@ The network utilizes a decentralized "Lattice Shield" to prevent "Harvest Now, D
 ------------------------------
 
 ## 🔗 Links
-[ [Telegram](https://t.me/QuantumBTC_Official) ] [ [Website](https://qbtc-w-protocol.tilda.ws/) ] [ [DexScreener](https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu) ]
+[ [Telegram](https://t.me) ] [ [Website](https://tilda.ws) ] [ [DexScreener](https://dexscreener.com) ]
+
 
 
 
