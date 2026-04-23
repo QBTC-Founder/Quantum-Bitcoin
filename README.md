@@ -40,9 +40,10 @@ To ensure long-term value and network security, QBTC utilizes a hyper-deflationa
 ## 🗺️ Roadmap: The Quantum Evolution
 
 ### Q2-Q4 2026: THE GENESIS & EXPANSION 🚀
-* **Official V2 Launch:** $QBTC is live on the Solana network (Token-2022)
+* **Official V2 Launch:** $QBTC is live on the Solana network (Token-2022) 
+* **Global Visibility:** Listing on DexScreener, BirdEye, CG and CoinMarketCap.
+* **Growth:** Target — 5,000+ holders milestone.
 * **Transparency & Trust:** Liquidity locked, Mint Authority revoked. Initial Supply: 1,000,000,000 QBTC
-* **Global Visibility:** Listing on DexScreener and BirdEye. Deployment of the technical W-Vault documentation on GitHub
 
 ### 2027: THE QUANTUM UPGRADE 🛡️
 * **W-Vault Wallet:** Release of the dedicated non-custodial interface with Lattice-Based Encryption
