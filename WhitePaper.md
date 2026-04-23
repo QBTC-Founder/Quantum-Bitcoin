@@ -41,12 +41,13 @@ QBTC implements a hyper-deflationary economic model designed for maximum scarcit
 *   **CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
                                                    ---
 
-## 5. Strategic Roadmap (2026 - 2032)
+## 5 Strategic Roadmap (2026 - 2032)
 
 ### 2026: THE GENESIS & EXPANSION 🚀
 *   Official V2.1 Launch on Solana
 *   Liquidity Locked and Mint Authority Revoked
-*   Global Visibility: Listing on DexScreener, BirdEye, and technical docs deployment
+
+* **Growth:** 5,000+ holders, CG & CMC listing*   Global Visibility: Listing on DexScreener, BirdEye, and technical docs deployment
 
 ### 2027: THE QUANTUM UPGRADE 🛡️
 *   Release of the W-Vault non-custodial wallet interface
