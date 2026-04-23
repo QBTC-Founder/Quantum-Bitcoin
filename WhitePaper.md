@@ -39,7 +39,7 @@ QBTC implements a hyper-deflationary economic model designed for maximum scarcit
 *   **The First Leap:** A massive 50% supply reduction scheduled for April 2028
 *   **Legacy Cycle:** Subsequent strategic burns every 4 years to ensure supply-shock resistance for decades
 *   **CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
-                                                   ---
+                                                   
 
 ## 5 Strategic Roadmap (2026 - 2032)
 
