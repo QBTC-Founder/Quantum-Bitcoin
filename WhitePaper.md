@@ -39,8 +39,7 @@ QBTC implements a hyper-deflationary economic model designed for maximum scarcit
 *   **The First Leap:** A massive 50% supply reduction scheduled for April 2028
 *   **Legacy Cycle:** Subsequent strategic burns every 4 years to ensure supply-shock resistance for decades
 *   **CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
-
----
+                                                   ---
 
 ## 5. Strategic Roadmap (2026 - 2032)
 
@@ -60,8 +59,6 @@ QBTC implements a hyper-deflationary economic model designed for maximum scarcit
 ### APRIL 2032: THE SECOND LEAP 🔄
 *   Subsequent Burn: 25% of the remaining supply destroyed
 *   Full network maturity and long-term stability for all holders
-
----
 
 ## 6. Conclusion
 QBTC is more than a currency; it is a defensive infrastructure. By combining the speed of Solana with the post-quantum security of the W-Protocol, we provide a viable "Store of Value" for the coming Quantum Era.
