@@ -24,7 +24,7 @@ class WProtocolCore:
         self.n = dimension  
         self.q = 12289      
         self.current_supply = TOTAL_SUPPLY
-        self.genesis_ts = "Sun Apr 19 2026"
+        self.genesis_ts = "Sun Apr 18 2026"
 
     def generate_lattice_vector(self):
         """Simulates a short vector in a lattice (SIS problem)"""
