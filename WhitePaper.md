@@ -75,7 +75,7 @@ QBTC is more than a currency; it is a defensive infrastructure. By combining the
 
 🐦 **TWITTER:** [Follow X](https://x.com)
 
-✈️ **TELEGRAM:** [Join Community](https://t.me)
+✈️ **TELEGRAM:** [Join Community](https://t.me/QuantumBTC_Official)
 
 📊 **DEX:** [View Chart](https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu)
 
