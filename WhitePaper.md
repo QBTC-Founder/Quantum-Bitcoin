@@ -66,3 +66,10 @@ QBTC is more than a currency; it is a defensive infrastructure. By combining the
 
 ---
 **© 2026 QBTC Project. Quantum Defense Architecture.**
+
+---
+## 🔗 OFFICIAL LINKS
+🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io)
+🐦 **TWITTER:** [Follow @qbtcwprotocol](https://x.com)
+✈️ **TELEGRAM:** [Join Community](https://t.me)
+📊 **DEXSCREENER:** [View $QBTC Chart](https://dexscreener.com)
