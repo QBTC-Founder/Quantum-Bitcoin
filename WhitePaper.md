@@ -71,7 +71,7 @@ QBTC is more than a currency; it is a defensive infrastructure. By combining the
 ---
 ## 🔗 OFFICIAL LINKS
 
-🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io)
+🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io/)
 
 🐦 **TWITTER:** [Follow X](https://x.com)
 
