@@ -74,8 +74,23 @@ The network utilizes a decentralized "Lattice Shield" to prevent "Harvest Now, D
 ------------------------------
 
 ## 🔗 Links
-[ [Telegram](https://t.me/QuantumBTC_Official) ] [ [Website](http://qbtcwp.io/)
-) ] [ [DexScreener](https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu)
+------------------------------
+
+## 🔗 OFFICIAL LINKS
+
+🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io)
+
+🐦 **TWITTER (X):** [Follow @qbtcwprotocol](https://x.com/qbtcwprotocol?s=21)
+
+✈️ **TELEGRAM:** [Join Community](https://t.me)
+
+📊 **DEXSCREENER:** [Live Chart](https://dexscreener.com)
+
+📄 **WHITEPAPER:** [Read Technical Docs](WhitePaper.md)
+
+---
+`CA: 8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
+
 
 
 
