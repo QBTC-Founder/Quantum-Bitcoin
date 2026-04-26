@@ -43,11 +43,11 @@ The protocol serves as a secure gateway for Autonomous AI Agents, secured by dec
 ## 4. Quantum Tokenomics (Model 2.1)
 
 - **Total Supply:** 1,000,000,000 $QBTC (Fixed)
-- **Burn:** 1% automatic on protected tx + strategic burns
+- **Burn Mechanism:** 1% automatic on protected transactions + strategic burns
 - **Mint Authority:** Revoked
 - **CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
 
-**First Leap (April 2028)** — 50% supply burn  
+**First Leap (April 2028)** — 50% supply reduction  
 **Legacy Cycle** — further burns for scarcity.
 
 ---
@@ -65,7 +65,10 @@ The protocol serves as a secure gateway for Autonomous AI Agents, secured by dec
 
 QBTC + W-Protocol = defensive infrastructure for the quantum era.
 
-**Disclaimer:** This is a living document. Production post-quantum security requires professional audit. DYOR.
+---
+
+**Disclaimer**  
+This is a living document. Post-quantum cryptography in production requires professional independent audits. All interactions with $QBTC are at your own risk. DYOR.
 
 **© 2026 QBTC Project • W-Protocol Team**
 
