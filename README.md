@@ -1,11 +1,11 @@
 ## 🛡️ Quantum Bitcoin ($QBTC) - W-Protocol v1.1.0
 
 **Quantum Bitcoin (QBTC)** is a post-quantum defensive ecosystem on Solana.  
-Official V2 launch featuring the integrated **W-Protocol v1.1.0** — a hybrid lattice-based protection layer for assets and AI agents in the quantum computing era.
+Official V2.1 launch featuring the integrated **W-Protocol v1.1.0** — a hybrid lattice-based protection layer for assets and AI agents in the quantum computing era.
 
 ---
 
-## 🚀 Why QBTC V2?
+## 🚀 Why QBTC V2.1?
 
 Traditional cryptography (ECDSA) used in most blockchains is vulnerable to Shor’s algorithm.  
 QBTC and W-Protocol leverage **Lattice-Based Cryptography** (the foundation of NIST Post-Quantum standards) and an active **Q-Shield** for long-term protection.
@@ -51,7 +51,7 @@ QBTC follows a hyper-deflationary model:
 ## 🗺️ Roadmap: Quantum Evolution
 
 ### Q2-Q4 2026: Genesis & Expansion 🚀
-- Official V2 launch on Solana
+- Official V2.1 launch on Solana
 - Listings on DexScreener, Birdeye, CoinGecko & CoinMarketCap
 - Target: 5,000+ holders
 - Liquidity locked + Mint Authority revoked
