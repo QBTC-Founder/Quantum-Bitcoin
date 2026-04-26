@@ -1,83 +1,80 @@
 # W-Protocol Technical Whitepaper (V2.1)
+
 **Project:** Quantum Bitcoin ($QBTC)  
-**Security Standard:** Post-Quantum Lattice Defense  
+**Security Standard:** Post-Quantum Lattice Defense (Hybrid)  
 **Network:** Solana (Token-2022)  
-**Status:** Mainnet Live (V2.1 Infrastructure)
+**Status:** Mainnet Live — V2.1 Infrastructure (Simulation Phase)
 
 ---
 
 ## 1. The Quantum Threat: Shor’s Algorithm & HNDL
-Standard blockchain encryption (ECDSA/Ed25519) is vulnerable to quantum supremacy. Specifically, Shor’s algorithm can factorize keys in seconds, rendering traditional wallets obsolete. Furthermore, **"Harvest Now, Decrypt Later" (HNDL)** attacks pose an immediate threat: malicious actors are currently capturing encrypted data to decrypt it once quantum hardware matures. QBTC is engineered to neutralize these threats before they materialize.
+
+Standard blockchain encryption (ECDSA/Ed25519) is vulnerable to quantum computers. Shor’s algorithm can factorize keys in polynomial time once sufficiently powerful quantum hardware appears.  
+
+Additionally, **"Harvest Now, Decrypt Later" (HNDL)** attacks are already a real threat: malicious actors are collecting encrypted data today to decrypt it later when quantum computers mature.  
+
+W-Protocol is engineered to neutralize these long-term risks.
 
 ---
 
 ## 2. W-Protocol v1.1.0: The Q-Shield Architecture
-The W-Protocol introduces a hybrid security layer. It utilizes **Lattice-Based Cryptography**, focusing on **Short Integer Solution (SIS)** and **Learning With Errors (LWE)** problems. These mathematical structures remain computationally infeasible even for powerful quantum processors.
+
+The W-Protocol introduces a **hybrid security layer**. It utilizes **Lattice-Based Cryptography**, focusing on the **Short Integer Solution (SIS)** and **Learning With Errors (LWE)** problems. These mathematical structures remain computationally infeasible even for powerful quantum processors.
 
 ### 2.1 Active Defense: Q-Shield Mode
-Unlike static protocols, W-Protocol features an active monitoring system:
-*   **Anomaly Detection:** Q-Shield scans for non-classical transaction patterns and potential quantum-probing.
-*   **Instant Hardening:** Upon detection, the protocol automatically upgrades signature requirements and isolates vulnerable nodes to maintain network integrity.
+- **Anomaly Detection:** Q-Shield scans for non-classical transaction patterns and potential quantum-probing.
+- **Instant Hardening:** Upon detection, the protocol automatically upgrades signature requirements and isolates vulnerable nodes.
 
 ### 2.2 W-Vault: Advanced Asset Protection 🔐
-W-Vault acts as a decentralized "Security Wrapper," upgrading standard signatures to post-quantum standards.
-*   **Cryptographic Wrapping:** Users can "wrap" $QBTC into a reinforced envelope without changing its underlying value.
-*   **Non-Custodial Integrity:** The protocol provides the mathematical barrier, but users retain 100% control of their private keys.
+W-Vault acts as a decentralized "Security Wrapper":
+- **Cryptographic Wrapping:** Users can wrap $QBTC into a reinforced envelope.
+- **Non-Custodial:** Users retain 100% control of their private keys.
+
+> **Important Note:** Current version is an **improved simulation**. Full production version with real Kyber/Dilithium is planned for 2027 (Rust + Anchor).
 
 ---
 
 ## 3. AI & Guardian Infrastructure
-The protocol acts as a secure gateway for Autonomous AI Agents. Security is maintained by **Guardians**—decentralized node operators who validate lattice-signatures and earn rewards for maintaining the "Quantum Barrier."
+
+The protocol serves as a secure gateway for Autonomous AI Agents, secured by decentralized **Guardians**.
 
 ---
 
 ## 4. Quantum Tokenomics (Model 2.1)
-QBTC implements a hyper-deflationary economic model designed for maximum scarcity.
-*   **Total Supply:** 1,000,000,000 $QBTC (Fixed Max)
-*   **Deflationary Mechanism:** Strategic burns and transaction-based scarcity models
-*   **Authority:** Mint Authority Revoked (N/A)
-*   **The First Leap:** A massive 50% supply reduction scheduled for April 2028
-*   **Legacy Cycle:** Subsequent strategic burns every 4 years to ensure supply-shock resistance for decades
-*   **CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
-                                                   
 
-## 5 Strategic Roadmap (2026 - 2032)
+- **Total Supply:** 1,000,000,000 $QBTC (Fixed)
+- **Burn:** 1% automatic on protected tx + strategic burns
+- **Mint Authority:** Revoked
+- **CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
 
-### 2026: THE GENESIS & EXPANSION 🚀
-*   Official V2.1 Launch on Solana
-*   Liquidity Locked and Mint Authority Revoked
+**First Leap (April 2028)** — 50% supply burn  
+**Legacy Cycle** — further burns for scarcity.
 
-* **Growth:** 5,000+ holders, CG & CMC listing*   Global Visibility: Listing on DexScreener, BirdEye, and technical docs deployment
+---
 
-### 2027: THE QUANTUM UPGRADE 🛡️
-*   Release of the W-Vault non-custodial wallet interface
-*   Full decentralization of the W-Protocol gateway
+## 5. Strategic Roadmap (2026 – 2032)
 
-### APRIL 2028: THE FIRST LEAP 💎
-*   First Strategic Burn: 50% of the total supply destroyed
-*   Transition into the "Legacy Cycle" with enforced scarcity mechanisms
+**2026:** Launch, listings, Python simulation  
+**2027:** W-Vault + Rust + real PQC  
+**2028:** First major burn  
+**2032:** Second burn + maturity
 
-### APRIL 2032: THE SECOND LEAP 🔄
-*   Subsequent Burn: 25% of the remaining supply destroyed
-*   Full network maturity and long-term stability for all holders
+---
 
 ## 6. Conclusion
-QBTC is more than a currency; it is a defensive infrastructure. By combining the speed of Solana with the post-quantum security of the W-Protocol, we provide a viable "Store of Value" for the coming Quantum Era.
+
+QBTC + W-Protocol = defensive infrastructure for the quantum era.
+
+**Disclaimer:** This is a living document. Production post-quantum security requires professional audit. DYOR.
+
+**© 2026 QBTC Project • W-Protocol Team**
 
 ---
-**© 2026 QBTC Project. Quantum Defense Architecture.**
 
-----
----
-## 🔗 OFFICIAL LINKS
+## 🔗 Official Links
 
-🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io/)
-
-🐦 **TWITTER:** [Follow X](https://x.com)
-
-✈️ **TELEGRAM:** [Join Community](https://t.me/QuantumBTC_Official)
-
-📊 **DEX:** [View Chart](https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu)
-
-
-
+🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io/)  
+🐦 **TWITTER:** [Follow](https://x.com/QBTCWPROTOCOL)  
+✈️ **TELEGRAM:** [Join](https://t.me/QuantumBTC_Official)  
+📊 **DEX:** [Chart](https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu)  
+**CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
