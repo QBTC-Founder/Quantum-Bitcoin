@@ -1,6 +1,6 @@
 # W-Protocol Technical Whitepaper (V2.1)
 
-**Project:** Quantum Bitcoin ($QBTC)  
+**Project:** Quantum Bitcoin ($QBTC) V2.1  
 **Security Standard:** Post-Quantum Lattice Defense (Hybrid)  
 **Network:** Solana (Token-2022)  
 **Status:** Mainnet Live — V2.1 Infrastructure (Simulation Phase)
@@ -63,7 +63,7 @@ The protocol serves as a secure gateway for Autonomous AI Agents, secured by dec
 
 ## 6. Conclusion
 
-QBTC + W-Protocol = defensive infrastructure for the quantum era.
+QBTC V2.1 with W-Protocol v1.1.0 is defensive infrastructure for the quantum era.
 
 ---
 
@@ -78,6 +78,6 @@ This is a living document. Post-quantum cryptography in production requires prof
 
 🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io/)  
 🐦 **TWITTER:** [Follow](https://x.com/QBTCWPROTOCOL)  
-✈️ **TELEGRAM:** [Join](https://t.me/QuantumBTC_Official)  
+✈️ **TELEGRAM:** [Join Community](https://t.me/QuantumBTC_Official)  
 📊 **DEX:** [Chart](https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu)  
 **CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
