@@ -1,82 +1,99 @@
-## 🛡️ Quantum Bitcoin ($QBTC) - W-Protocol V2
+## 🛡️ Quantum Bitcoin ($QBTC) - W-Protocol v1.1.0
 
-Quantum Bitcoin (QBTC) is a next-generation post-quantum resistant asset on the Solana network. This is the Official V2 Launch, featuring the integrated **W-Protocol v1.1.0** to secure digital assets and AI agents against emerging quantum computing threats.
-
-------------------------------
-
-## 🚀 Why QBTC V2?
-Traditional encryption (ECDSA) used in most blockchains is vulnerable to Shor’s algorithm. QBTC leverages **Lattice-Based Cryptography**, providing an active "Q-Shield" for decentralized infrastructure and long-term data integrity.
-
-## 🔐 W-Vault: The Quantum Resistance Layer 🛡️
-W-Vault is a decentralized "Security Wrapper" that acts as high-tech armor, upgrading standard cryptographic signatures to post-quantum standards.
-
-* **Lattice-Based Encryption:** Assets are secured using SIS and LWE mathematical structures, unsolvable for quantum processors.
-* **The Migration (Wrapping):** Seamlessly "wrap" $QBTC into a reinforced cryptographic envelope without changing its underlying value.
-* **Adaptive Q-Shield:** The W-Protocol Gateway monitors for anomalies and instantly scales protection against brute-force attacks.
-* **Decentralized Custody:** W-Vault is non-custodial. You remain the sole owner of your keys while the protocol provides the mathematical barrier.
+**Quantum Bitcoin (QBTC)** — это пост-квантовая защитная экосистема на Solana.  
+Официальный V2 запуск с интегрированным **W-Protocol v1.1.0** — гибридным lattice-based защитным слоем для активов и AI-агентов в эпоху квантовых компьютеров.
 
 ------------------------------
 
-## 🛠 Technical Specifications
-* **Network:** Solana (SPL Token-2022 Standard)
-* **Total Supply:** 1,000,000,000 QBTC (Fixed)
-* **Authority:** Mint Authority Revoked (N/A)
-* **Burn Mechanism:** Manual & Automated Strategic Burns (Deflationary Model)
-* **Protocol:** W-Protocol v1.1.0 (Lattice-Based)
-* **Security:** SHA-384 Hybrid Hashing + SIS/LWE Encryption + Q-Shield Mode
-* **CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
+## 🚀 Почему QBTC V2?
+
+Традиционная криптография (ECDSA), используемая в большинстве блокчейнов, уязвима к алгоритму Шора.  
+QBTC и W-Protocol используют **Lattice-Based Cryptography** (основу NIST Post-Quantum стандартов) и активный **Q-Shield** для долгосрочной защиты.
 
 ------------------------------
 
-## 📈 Economic Model (Quantum Scarcity)
-To ensure long-term value and network security, QBTC utilizes a hyper-deflationary model:
+## 🔐 W-Vault: Пост-Квантовый Защитный Слой
 
-1. **Strategic Scarcity:** Direct supply reductions through massive burn events.
-2. **The First Leap:** A landmark 50% supply reduction scheduled for April 2028.
-3. **Legacy Stability:** Subsequent strategic burns to maintain value growth for decades.
+W-Vault — это децентрализованный «криптографический конверт», который усиливает стандартные подписи до пост-квантового уровня.
 
-------------------------------
+### Ключевые возможности:
+- **Lattice-Based Simulation** — моделирование SIS и LWE структур (подготовка к реальным NIST алгоритмам)
+- **Adaptive Q-Shield** — мониторинг аномалий и активация защиты
+- **Hybrid Security** — сочетание классической и пост-квантовой криптографии
+- **Non-custodial** — вы полностью контролируете свои ключи
 
-## 🗺️ Roadmap: The Quantum Evolution
-
-### Q2-Q4 2026: THE GENESIS & EXPANSION 🚀
-* **Official V2 Launch:** $QBTC is live on the Solana network (Token-2022) 
-* **Global Visibility:** Listing on DexScreener, BirdEye, CG and CoinMarketCap.
-* **Growth:** Target — 5,000+ holders milestone.
-* **Transparency & Trust:** Liquidity locked, Mint Authority revoked. Initial Supply: 1,000,000,000 QBTC
-
-### 2027: THE QUANTUM UPGRADE 🛡️
-* **W-Vault Wallet:** Release of the dedicated non-custodial interface with Lattice-Based Encryption
-* **W-Protocol Activation:** Deployment of active Q-Shield mode to monitor and mitigate computational threats
-
-### APRIL 2028: THE FIRST LEAP 💎
-* **First Strategic Burn:** 50% of the total supply will be permanently destroyed to ensure engineered scarcity
-* **Protocol V2:** Smart Contract Enforced Execution of the automated scarcity and redistribution mechanism
-
-### APRIL 2032: THE SECOND LEAP 🔄
-* **Subsequent Burn:** An additional 25% of the remaining supply will be destroyed
-* **Legacy Stability:** Reaching full network maturity and ensuring long-term value growth for all holders
+> **Важно**: Текущая версия — улучшенная симуляция. Полноценная реализация с настоящими ML-KEM (Kyber) и ML-DSA (Dilithium) на Rust + Anchor запланирована в 2027 году.
 
 ------------------------------
 
-## 📂 Repository Structure
-* **WhitePaper.md** — Comprehensive technical breakdown of the W-Protocol and Q-Shield
-* **W-Vault.md** — Detailed architecture of the post-quantum resistance layer
-* **car_logic.py** — Core simulation of the lattice shield architecture
+## 🛠 Технические Характеристики
+
+- **Сеть:** Solana (SPL Token-2022 Standard)
+- **Total Supply:** 1,000,000,000 QBTC (фиксированный)
+- **Mint Authority:** Revoked
+- **Burn Mechanism:** Автоматический (1% на защищённые транзакции) + стратегические сжигания
+- **Протокол:** W-Protocol v1.1.0 (Lattice-Based Hybrid)
+- **Security:** SHA3-384 Hybrid Hashing + LWE Simulation + Q-Shield
+- **CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
 
 ------------------------------
 
-## 🛡️ Security Status: [ACTIVE]
-The network utilizes a decentralized "Lattice Shield" to prevent "Harvest Now, Decrypt Later" (HNDL) attacks. Optimized for high-speed transactions and protected by the W-Protocol gateway.
+## 📈 Экономическая Модель (Quantum Scarcity)
 
-✅ **Quantum Resistance Verified**
+QBTC использует гипер-дефляционную модель для долгосрочной ценности:
+
+1. **Автоматический burn** — 1% от каждой защищённой транзакции
+2. **Первый Leap (April 2028)** — крупное стратегическое сжигание
+3. **Долгосрочная дефляция** — последующие burn-этапы для engineered scarcity
 
 ------------------------------
-## 🔗 OFFICIAL LINKS
+
+## 🗺️ Roadmap: Quantum Evolution
+
+### Q2-Q4 2026: Genesis & Expansion 🚀
+- Официальный запуск V2 на Solana
+- Листинг на DexScreener, Birdeye, CoinGecko и CoinMarketCap
+- Цель: 5,000+ holders
+- Liquidity locked, Mint Authority revoked
+
+### 2027: Quantum Upgrade 🛡️
+- Запуск W-Vault (non-custodial интерфейс)
+- Переход на Rust + Anchor
+- Активация полноценного Q-Shield с реальными lattice-алгоритмами
+
+### April 2028: First Leap 💎
+- Крупное стратегическое сжигание supply
+- Активация автоматизированных механизмов scarcity
+
+### April 2032: Second Leap 🔄
+- Дополнительное сжигание
+- Полная зрелость сети и долгосрочная стабильность
+
+------------------------------
+
+## 📂 Структура Репозитория
+
+- **README.md** — Общее описание проекта
+- **WhitePaper.md** — Полное техническое описание W-Protocol
+- **W-Vault.md** — Архитектура защитного слоя
+- **car_logic.py** — Core-симуляция lattice shield (улучшенная версия)
+
+------------------------------
+
+## 🛡️ Security Status: ACTIVE (Simulation)
+
+Протокол использует Lattice Shield для защиты от **"Harvest Now, Decrypt Later" (HNDL)** атак.  
+Текущая версия — исследовательский прототип с улучшенной симуляцией.
+
+✅ **Quantum Resistance Simulated**
+
+------------------------------
+
+## 🔗 Official Links
 
 🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io)
 
-🐦 **TWITTER:** [Follow X](https://x.com)
+🐦 **TWITTER:** [Follow X](https://x.com/QBTCWPROTOCOL)
 
 ✈️ **TELEGRAM:** [Join Community](https://t.me/QuantumBTC_Official)
 
@@ -85,12 +102,16 @@ The network utilizes a decentralized "Lattice Shield" to prevent "Harvest Now, D
 📄 **WHITEPAPER:** [Read Docs](WhitePaper.md)
 
 ---
-`CA: 8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
 
+**CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
 
+---
 
+**Disclaimer**  
+Данный проект находится на стадии разработки. Пост-квантовая криптография в production требует независимого аудита.  
+Все действия с $QBTC осуществляются на ваш собственный риск. DYOR.
 
+---
 
-
-
-
+**Made for the quantum-safe future**  
+W-Protocol Team • QBTC Community
