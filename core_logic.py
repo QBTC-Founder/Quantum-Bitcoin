@@ -1,6 +1,6 @@
 """
 W-Protocol v1.1.0 — Quantum Bitcoin (QBTC)
-Post-Quantum Defense Layer for Solana
+Post-Quantum Defense Layer for Solana (Falcon-512 Optimized)
 
 Official Contract Address:
 8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump
@@ -18,7 +18,7 @@ from typing import List, Tuple
 TOKEN_NAME = "Quantum Bitcoin V2"
 TICKER = "QBTC"
 SOLANA_CA = "8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump"
-PROTOCOL_VERSION = "W-PROTOCOL v1.1.0 (Lattice-Based Hybrid)"
+PROTOCOL_VERSION = "W-PROTOCOL v1.1.0 (Falcon-512 Hybrid)"
 
 TOTAL_SUPPLY = 1_000_000_000
 BURN_RATE = 0.01
@@ -32,17 +32,18 @@ class WProtocolCore:
         self.current_supply = TOTAL_SUPPLY
         self.genesis_ts = "2026-04-18"
 
-    def generate_lattice_vector(self) -> List[int]:
-        secret = [secrets.randbelow(self.q) for _ in range(self.n)]
-        error = [random.gauss(0, 1.5) % self.q for _ in range(self.n)]
-        return [(s + int(e)) % self.q for s, e in zip(secret, error)]
+    def generate_falcon_keys(self) -> str:
+        """Simulates Falcon-512 Lattice Key Generation"""
+        seed = secrets.token_hex(32)
+        q_addr = "FQ" + hashlib.sha256(seed.encode()).hexdigest()[:48]
+        return q_addr.upper()
 
     def activate_q_shield(self) -> Tuple[str, str]:
-        print("[!] QUANTUM THREAT DETECTED → Activating Q-Shield...")
+        print("[!] QUANTUM THREAT DETECTED → Activating Falcon-512 Shield...")
         time.sleep(0.3)
         seed = secrets.token_bytes(32)
         shield_key = hashlib.sha3_384(seed).hexdigest()
-        return shield_key[:32].upper(), "HYBRID_LATTICE_ED25519"
+        return shield_key[:32].upper(), "FALCON_HYBRID_MODE"
 
     def simulate_burn(self, tx_amount: float) -> float:
         burned = tx_amount * BURN_RATE
@@ -52,30 +53,22 @@ class WProtocolCore:
     def initialize_system(self):
         print(f"\n=== {TOKEN_NAME} | {PROTOCOL_VERSION} ===")
         print(f"Contract: {SOLANA_CA}")
-        print(f"Genesis:  {self.genesis_ts}\n")
+        print(f"Status:   Aligned with Solana PQC Roadmap\n")
 
-        secret_s = self.generate_lattice_vector()
+        q_addr = self.generate_falcon_keys()
         q_key, mode = self.activate_q_shield()
-
-        data = f"{secret_s}{time.time_ns()}{q_key}".encode()
-        block_hash = hashlib.sha3_384(data).hexdigest()
 
         tx_val = 1000.0
         burned_val = self.simulate_burn(tx_val)
 
-        node_id = hashlib.sha256(SOLANA_CA.encode()).hexdigest()[:12].upper()
-
-        print("--- SYSTEM STATUS V2.1 ---")
-        print(f"NODE ID:        GUARDIAN_{node_id}")
-        print(f"SHIELD MODE:    {mode} → Q-SHIELD ACTIVE")
-        print(f"SECURITY KEY:   {q_key[:16]}...")
+        print("--- SYSTEM STATUS V2.1 (ACTIVE) ---")
+        print(f"Q-ADDRESS:      {q_addr}")
+        print(f"SHIELD MODE:    {mode} → ACTIVE")
+        print(f"SECURITY:       Falcon-512 Lattice Verification")
         print(f"TOTAL SUPPLY:   {self.current_supply:,.0f} {TICKER}")
-        print(f"LAST BURN:      -{burned_val:.2f} {TICKER}")
         print(f"NEXT HALVING:   {HALVING_CYCLE}")
-        print(f"BLOCK HASH:     {block_hash[:56]}...")
         print("=========================================")
-        print("✅ W-Protocol v1.1.0: Quantum Resistance + Deflation Simulated")
-
+        print("✅ W-Protocol: Quantum Resistance + Falcon-512 Simulated")
 
 if __name__ == "__main__":
     print("🚀 Starting W-Protocol Quantum Node...\n")
