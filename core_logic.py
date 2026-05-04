@@ -1,76 +1,132 @@
 """
-W-Protocol v1.1.0 — Quantum Bitcoin (QBTC)
-Post-Quantum Defense Layer for Solana (Falcon-512 Optimized)
+W-Protocol v1.1.0 — Quantum Bitcoin ($QBTC)
+CAR Logic Layer (Core Adaptive Risk Model)
 
-Official Contract Address:
-8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump
+This module defines the internal transaction logic layer
+used by W-Vault and Q-Shield.
 
-This is a demonstration / research prototype.
+Network: Solana (conceptual layer simulation)
 """
 
 import hashlib
 import time
 import secrets
-import random
-from typing import List, Tuple
+from dataclasses import dataclass
 
-# ====================== METADATA ======================
-TOKEN_NAME = "Quantum Bitcoin V2"
-TICKER = "QBTC"
-SOLANA_CA = "8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump"
-PROTOCOL_VERSION = "W-PROTOCOL v1.1.0 (Falcon-512 Hybrid)"
-
+# ===================== CONFIG =====================
 TOTAL_SUPPLY = 1_000_000_000
 BURN_RATE = 0.01
-HALVING_CYCLE = "April 2028"
-# =====================================================
+PROTOCOL_NAME = "W-Protocol v1.1.0"
+TICKER = "QBTC"
+# ==================================================
 
-class WProtocolCore:
-    def __init__(self, dimension: int = 256, modulus: int = 12289):
-        self.n = dimension
-        self.q = modulus
-        self.current_supply = TOTAL_SUPPLY
-        self.genesis_ts = "2026-04-18"
 
-    def generate_falcon_keys(self) -> str:
-        """Simulates Falcon-512 Lattice Key Generation"""
-        seed = secrets.token_hex(32)
-        q_addr = "FQ" + hashlib.sha256(seed.encode()).hexdigest()[:48]
-        return q_addr.upper()
+# ===================== CORE MODELS =====================
 
-    def activate_q_shield(self) -> Tuple[str, str]:
-        print("[!] QUANTUM THREAT DETECTED → Activating Falcon-512 Shield...")
-        time.sleep(0.3)
-        seed = secrets.token_bytes(32)
-        shield_key = hashlib.sha3_384(seed).hexdigest()
-        return shield_key[:32].upper(), "FALCON_HYBRID_MODE"
+@dataclass
+class Transaction:
+    sender: str
+    receiver: str
+    amount: float
+    timestamp: float
 
-    def simulate_burn(self, tx_amount: float) -> float:
-        burned = tx_amount * BURN_RATE
-        self.current_supply = max(0, self.current_supply - burned)
-        return burned
 
-    def initialize_system(self):
-        print(f"\n=== {TOKEN_NAME} | {PROTOCOL_VERSION} ===")
-        print(f"Contract: {SOLANA_CA}")
-        print(f"Status:   Aligned with Solana PQC Roadmap\n")
+class QShield:
+    """
+    Real-time risk analysis layer.
+    Produces a dynamic risk score based on transaction behavior.
+    """
 
-        q_addr = self.generate_falcon_keys()
-        q_key, mode = self.activate_q_shield()
+    def analyze(self, tx: Transaction) -> float:
+        base_score = 0.1
 
-        tx_val = 1000.0
-        burned_val = self.simulate_burn(tx_val)
+        # lightweight behavioral heuristics
+        if tx.amount > 10000:
+            base_score += 0.3
 
-        print("--- SYSTEM STATUS V2.1 (ACTIVE) ---")
-        print(f"Q-ADDRESS:      {q_addr}")
-        print(f"SHIELD MODE:    {mode} → ACTIVE")
-        print(f"SECURITY:       Falcon-512 Lattice Verification")
-        print(f"TOTAL SUPPLY:   {self.current_supply:,.0f} {TICKER}")
-        print(f"NEXT HALVING:   {HALVING_CYCLE}")
-        print("=========================================")
-        print("✅ W-Protocol: Quantum Resistance + Falcon-512 Simulated")
+        if tx.amount > 100000:
+            base_score += 0.4
+
+        # time-based randomness (simulation of network volatility)
+        entropy = int(hashlib.sha256(str(tx.timestamp).encode()).hexdigest(), 16)
+        base_score += (entropy % 100) / 1000
+
+        return round(min(base_score, 1.0), 4)
+
+
+class WVault:
+    """
+    Transaction wrapper layer.
+    Applies protocol rules before execution.
+    """
+
+    def __init__(self):
+        self.burned_total = 0
+
+    def process(self, tx: Transaction, risk_score: float):
+        """
+        Applies W-Protocol logic before execution.
+        """
+
+        # risk-based adjustment
+        if risk_score > 0.7:
+            return {
+                "status": "rejected",
+                "reason": "high_risk_detected"
+            }
+
+        burn = tx.amount * BURN_RATE
+        self.burned_total += burn
+
+        net_amount = tx.amount - burn
+
+        return {
+            "status": "approved",
+            "original_amount": tx.amount,
+            "burned": burn,
+            "net_amount": net_amount
+        }
+
+
+# ===================== PROTOCOL ENGINE =====================
+
+class WProtocolEngine:
+    """
+    Core orchestration layer combining Q-Shield + W-Vault.
+    """
+
+    def __init__(self):
+        self.qshield = QShield()
+        self.vault = WVault()
+
+    def execute_transaction(self, sender: str, receiver: str, amount: float):
+        tx = Transaction(
+            sender=sender,
+            receiver=receiver,
+            amount=amount,
+            timestamp=time.time()
+        )
+
+        risk = self.qshield.analyze(tx)
+        result = self.vault.process(tx, risk)
+
+        return {
+            "protocol": PROTOCOL_NAME,
+            "ticker": TICKER,
+            "risk_score": risk,
+            "result": result
+        }
+
+
+# ===================== DEMO =====================
 
 if __name__ == "__main__":
-    print("🚀 Starting W-Protocol Quantum Node...\n")
-    node = WProtocolCore()
-    node.initialize_system()
+    engine = WProtocolEngine()
+
+    sample = engine.execute_transaction(
+        sender="wallet_A",
+        receiver="wallet_B",
+        amount=50000
+    )
+
+    print(sample)
