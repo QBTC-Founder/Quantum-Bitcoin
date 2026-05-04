@@ -1,112 +1,92 @@
-## 🛡️ Quantum Bitcoin ($QBTC) - W-Protocol v1.1.0
+# 🛡️ W-Protocol v1.1.0 — Quantum Bitcoin ($QBTC)
+**Post-Quantum Defense Layer for Solana (Falcon-512 Alignment)**
 
-**Quantum Bitcoin (QBTC)** is a post-quantum defensive ecosystem on Solana.  
-Official V2.1 launch featuring the integrated **W-Protocol v1.1.0** — a hybrid lattice-based protection layer for assets and AI agents in the quantum computing era.
-
----
-
-## 🚀 Why QBTC V2.1?
-
-Traditional cryptography (ECDSA) used in most blockchains is vulnerable to Shor’s algorithm.  
-QBTC and W-Protocol leverage **Lattice-Based Cryptography** (the foundation of NIST Post-Quantum standards) and an active **Q-Shield** for long-term protection.
+**Official Contract Address:**  
+`8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
 
 ---
 
-## 🔐 W-Vault: Post-Quantum Protection Layer
+## 1. Executive Summary
 
-W-Vault is a decentralized "cryptographic envelope" that upgrades standard signatures to post-quantum level.
+W-Protocol is a modular blockchain framework on Solana designed to model adaptive security and economic behavior in digital assets.
 
-### Key Features:
-- **Lattice-Based Simulation** — modeling SIS and LWE structures (preparation for real NIST algorithms)
-- **Adaptive Q-Shield** — anomaly monitoring and instant protection activation
-- **Hybrid Security** — combination of classical and post-quantum cryptography
-- **Non-custodial** — you retain full control of your keys
-
-> **Important**: Current version is an enhanced simulation. Full production implementation with real ML-KEM (Kyber) and ML-DSA (Dilithium) on Rust + Anchor is planned for 2027.
+$QBTC is a narrative-driven token built around an experimental post-quantum-inspired protocol architecture.
 
 ---
 
-## 🛠 Technical Specifications
+## 2. The Quantum Threat
 
-- **Network:** Solana (SPL Token-2022 Standard)
-- **Total Supply:** 1,000,000,000 QBTC (Fixed)
-- **Mint Authority:** Revoked
-- **Burn Mechanism:** 1% automatic on protected transactions + strategic burns
-- **Protocol:** W-Protocol v1.1.0 (Lattice-Based Hybrid)
-- **Security:** SHA3-384 + LWE Simulation + Q-Shield
-- **CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
+Modern blockchain cryptography (ECDSA / Ed25519) is theoretically vulnerable to future quantum computing attacks.
 
----
+Key risks:
+- Shor’s algorithm-based signature compromise
+- Harvest-Now-Decrypt-Later (HNDL) data collection attacks
 
-## 📈 Economic Model (Quantum Scarcity)
-
-QBTC follows a hyper-deflationary model:
-
-1. **Automatic Burn** — 1% per protected transaction
-2. **First Leap (April 2028)** — major strategic supply reduction
-3. **Long-term Deflation** — subsequent burn events
+W-Protocol explores adaptive mitigation models for these long-term risks.
 
 ---
 
-## 🗺️ Roadmap: Quantum Evolution
+## 3. W-Protocol Architecture
 
-### Q2-Q4 2026: Genesis & Expansion 🚀
-- Official V2.1 launch on Solana
-- Listings on DexScreener, Birdeye, CoinGecko & CoinMarketCap
-- Target: 5,000+ holders
-- Liquidity locked + Mint Authority revoked
+### 🔐 W-Vault
+W-Vault is a transaction-level security abstraction layer that wraps blockchain transfers with adaptive protocol logic before execution.
 
-### 2027: Quantum Upgrade 🛡️
-- W-Vault non-custodial interface launch
-- Migration to Rust + Anchor
-- Full Q-Shield activation with real lattice algorithms
-
-### April 2028: First Leap 💎
-- Major strategic supply burn
-- Activation of automated scarcity mechanisms
-
-### April 2032: Second Leap 🔄
-- Additional supply burn
-- Full network maturity
+It does not store funds or act as a custodian.  
+Instead, it modifies and validates transaction behavior through protocol rules.
 
 ---
 
-## 📂 Repository Structure
+### 🛡️ Q-Shield
+Q-Shield is a real-time behavioral analysis system that monitors transaction activity and assigns dynamic risk scores.
 
-- **README.md** — Project overview
-- **WhitePaper.md** — Full technical description of W-Protocol
-- **car_logic.py** — Core lattice shield simulation
+It continuously evaluates network patterns and feeds risk signals into W-Vault to influence transaction processing decisions.
 
 ---
 
-## 🛡️ Security Status: ACTIVE (Simulation)
+### 📉 Burn Engine
+Protocol-level deflation mechanism applying controlled supply reduction:
+- 1% burn per protected transaction (model-based)
+- Strategic long-term supply reduction events
 
-The protocol uses Lattice Shield to protect against **"Harvest Now, Decrypt Later" (HNDL)** attacks.  
-Current version is a research prototype.
+---
 
-✅ **Quantum Resistance Simulated**
+### 📊 Supply Model
+- Total Supply: 1,000,000,000 $QBTC
+- Mint Authority: Revoked
+- Fixed supply with deflationary mechanics
+
+---
+
+## 4. System Flow
+
+Transaction processing flow:
+
+Q-Shield (risk analysis)
+↓
+W-Vault (transaction wrapper + decision layer)
+↓
+Execution (on-chain settlement)
+
+---
+
+## 5. Roadmap
+
+- 2026 — W-Protocol v1.1.0 deployment (simulation phase)
+- 2027 — Expansion of adaptive security model (Rust / Anchor research)
+- 2028 — First major supply adjustment phase
+- 2032 — Ecosystem maturity phase
 
 ---
 
 ## 🔗 Official Links
 
-🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io)  
-🐦 **TWITTER:** [Follow](https://x.com/QBTCWPROTOCOL)  
-✈️ **TELEGRAM:** [Join Community](https://t.me/QuantumBTC_Official)  
-📊 **DEXSCREENER:** [View Chart](https://dexscreener.com/solana/hdau92scgqqrcvaqp4afkbkrfxjbjixndxnqd6bcpms4)  
-📄 **WHITEPAPER:** [Read Docs](WhitePaper.md)
+- 🌐 Website: http://qbtcwp.io  
+- 🐦 X / Twitter: https://x.com/QBTCWPROTOCOL  
+- ✈️ Telegram: https://t.me/QuantumBTC_Official  
+- 📊 DexScreener: https://dexscreener.com/solana/hdau92scgqqrcvaqp4afkbkrfxjbjixndxnqd6bcpms4  
 
 ---
 
-**CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
+## ⚠️ Disclaimer
 
----
-
-**Disclaimer**  
-This project is in early development. Post-quantum cryptography in production requires independent audits.  
-All actions with $QBTC are at your own risk. DYOR.
-
----
-
-**Made for the quantum-safe future**  
-W-Protocol Team • QBTC Community
+W-Protocol is an experimental framework and does not represent production-level cryptographic security.
