@@ -46,7 +46,7 @@ Modern blockchains rely on ECDSA/Ed25519 signatures, which will become vulnerabl
 
 ## 🔗 Official Links
 *   🌐 **Website:** [qbtcwp.io](http://qbtcwp.io)
-*   🐦 **X / Twitter:** [@QBTCWPROTOCOL](https://x.com)
+*   🐦 **X / Twitter:** (https://x.com/qbtcwprotocol?s=21 )
 *   ✈️ **Telegram:** [QuantumBTC_Official](https://t.me)
 *   📊 **DEXScreener:** [View Chart](https://dexscreener.com/solana/hdau92scgqqrcvaqp4afkbkrfxjbjixndxnqd6bcpms4 )
 
