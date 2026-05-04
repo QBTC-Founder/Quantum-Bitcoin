@@ -67,8 +67,8 @@ W-Protocol is a research-driven adaptive framework and does not claim production
 
 ---
 
-## 7
-## 🔗 Official Links
+
+## 7. Official Links
 
 🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io)  
 🐦 **TWITTER:** [Follow](https://x.com/QBTCWPROTOCOL)  
