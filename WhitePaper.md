@@ -1,55 +1,138 @@
 # 🛡️ W-Protocol v1.1.0 — Quantum Bitcoin ($QBTC)
-**Post-Quantum Defense Layer for Solana (Falcon-512 Alignment)**
+## WhitePaper
 
-**Official Contract Address:**  
-`8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
-
----
-
-## 1. Executive Summary
-W-Protocol is a research simulation of a hybrid post-quantum security layer designed for the Solana blockchain. It aligns with Solana’s official Post-Quantum Cryptography (PQC) roadmap and demonstrates protection against future quantum computing threats.
-
-$QBTC is the first memecoin on Solana built around the quantum defense narrative.
+**Network:** Solana (Token-2022)  
+**Contract Address:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
 
 ---
 
-## 2. The Quantum Threat
-Modern blockchains rely on ECDSA/Ed25519 signatures, which will become vulnerable once large-scale quantum computers appear. Malicious actors are already collecting encrypted data today for future decryption (HNDL attacks).
+## 1. Introduction
 
-**W-Protocol** provides a forward-looking defensive layer using **Lattice-Based Cryptography**.
+W-Protocol is a modular blockchain framework designed to explore adaptive security and economic behavior models within decentralized systems.
 
----
+Quantum Bitcoin ($QBTC) is a token built on top of this framework, representing an experimental narrative around post-quantum inspired infrastructure.
 
-## 3. W-Protocol v1.1.0 Architecture (Simulation)
-*   **Falcon-512 Lattice Simulation**
-*   **Q-Shield Active Defense**
-*   **Hybrid Security Model**
-*   **W-Vault** — Conceptual non-custodial protection
+This WhitePaper describes the system architecture, not a production cryptographic guarantee.
 
 ---
 
-## 4. Technical Specifications
-*   **Network:** Solana (Token-2022)
-*   **Total Supply:** 1,000,000,000 $QBTC
-*   **Mint Authority:** Revoked
-*   **Burn:** 1% on protected transactions + strategic burns
+## 2. Problem Statement
+
+Current blockchain systems rely on classical cryptography such as ECDSA and Ed25519.
+
+These systems may become vulnerable in the future due to advances in quantum computing, specifically:
+- Shor’s algorithm (signature breakdown)
+- Data harvesting attacks (HNDL — Harvest Now, Decrypt Later)
+
+W-Protocol explores adaptive models to simulate response mechanisms to these theoretical risks.
 
 ---
 
-## 5. Roadmap
-*   **2026** — V1.1.0 Simulation + Listings
-*   **2027** — Migration to Rust + Anchor + Real Falcon-512
-*   **2028** — First Major Supply Burn (~50%)
-*   **2032** — Second Major Burn + Ecosystem Expansion
+## 3. W-Protocol Architecture
+
+W-Protocol is structured as a modular system composed of four core components:
 
 ---
 
-## 🔗 Official Links
-*   🌐 **Website:** [qbtcwp.io](http://qbtcwp.io)
-*   🐦 **X / Twitter:** [@QBTCWPROTOCOL](https://x.com/qbtcwprotocol?s=21 )
-*   ✈️ **Telegram:** [QuantumBTC_Official](https://t.me/QuantumBTC_Official)
-*   📊 **DEXScreener:** [View Chart](https://dexscreener.com/solana/hdau92scgqqrcvaqp4afkbkrfxjbjixndxnqd6bcpms4 )
+### 🔐 3.1 W-Vault (Transaction Security Layer)
+
+W-Vault is a transaction-level abstraction layer that wraps blockchain transfers with protocol logic before execution.
+
+It does not act as a custodian or storage system.
+
+#### Function:
+- Wraps transactions with adaptive logic rules
+- Applies validation layers before execution
+- Integrates signals from Q-Shield
+- Controls transaction flow behavior inside the protocol
 
 ---
 
-**CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
+### 🛡️ 3.2 Q-Shield (Risk Analysis System)
+
+Q-Shield is a real-time behavioral analysis module that monitors transaction activity within the network.
+
+#### Function:
+- Observes transaction patterns in real time
+- Detects anomalous behavior through deviation modeling
+- Assigns dynamic risk scores to network activity
+- Feeds risk data into W-Vault decision layer
+
+---
+
+### 📉 3.3 Burn Engine (Deflation Model)
+
+The Burn Engine introduces a controlled deflation mechanism inside protocol activity.
+
+#### Mechanism:
+- 1% burn per protected transaction (model-based simulation)
+- Additional strategic supply reduction phases over time
+
+---
+
+### 📊 3.4 Supply Model
+
+Defines the economic structure of $QBTC:
+
+- Total Supply: 1,000,000,000 tokens
+- Mint Authority: Revoked
+- Fixed supply with long-term deflation logic
+- Controlled reduction via protocol activity
+
+---
+
+## 4. System Flow
+
+Transaction processing follows a layered structure:
+
+1. Transaction is initiated
+2. Q-Shield performs real-time risk analysis
+3. W-Vault applies protocol rules and decision logic
+4. Transaction is executed on-chain
+
+This creates a dynamic, adaptive execution pipeline.
+
+---
+
+## 5. Security Model
+
+W-Protocol does not claim production-level post-quantum cryptographic security.
+
+Instead, it provides:
+- Adaptive security simulation framework
+- Behavioral risk modeling
+- Protocol-level response logic to theoretical threats
+
+---
+
+## 6. Roadmap
+
+### 2026
+- W-Protocol v1.1.0 deployment (simulation framework)
+- Ecosystem initialization on Solana
+
+### 2027
+- Expansion of adaptive modules
+- Research phase: Rust + Anchor architecture exploration
+
+### 2028
+- First major supply adjustment phase
+
+### 2032
+- Long-term system maturity and stabilization phase
+
+---
+
+## 7. Limitations
+
+W-Protocol is an experimental framework and does not implement real-world post-quantum cryptographic primitives such as ML-KEM or ML-DSA in production form.
+
+It is designed as a conceptual and architectural model.
+
+---
+
+## 8. Conclusion
+
+W-Protocol provides a modular experimental framework for exploring adaptive blockchain security and economic models.
+
+$QBTC acts as the narrative and economic representation of this system on the Solana blockchain.
