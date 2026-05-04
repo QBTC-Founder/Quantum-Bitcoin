@@ -93,7 +93,7 @@ Current version is a research prototype.
 🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io)  
 🐦 **TWITTER:** [Follow](https://x.com/QBTCWPROTOCOL)  
 ✈️ **TELEGRAM:** [Join Community](https://t.me/QuantumBTC_Official)  
-📊 **DEXSCREENER:** [View Chart](https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu)  
+📊 **DEXSCREENER:** [View Chart](https://dexscreener.com/solana/hdau92scgqqrcvaqp4afkbkrfxjbjixndxnqd6bcpms4)  
 📄 **WHITEPAPER:** [Read Docs](WhitePaper.md)
 
 ---
