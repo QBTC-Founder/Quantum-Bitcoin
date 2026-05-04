@@ -1,5 +1,5 @@
 # 🛡️ W-Protocol v1.1.0 — Quantum Bitcoin ($QBTC)
-**Post-Quantum Defense Layer for Solana (Falcon-512 Optimized)**
+**Post-Quantum Defense Layer for Solana (Falcon-512 Alignment)**
 
 **Official Contract Address:**  
 `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
@@ -7,20 +7,49 @@
 ---
 
 ## 1. Executive Summary
-W-Protocol is a post-quantum security layer designed for the Solana blockchain. It utilizes Lattice-Based Cryptography (Falcon-512) to protect assets against future quantum computing threats. $QBTC is the core utility token of the W-Protocol ecosystem.
+W-Protocol is a research simulation of a hybrid post-quantum security layer designed for the Solana blockchain. It aligns with Solana’s official Post-Quantum Cryptography (PQC) roadmap and demonstrates protection against future quantum computing threats.
 
-## 2. Technical Specifications
-*   **Protocol:** W-Protocol v1.1.0
-*   **Algorithm:** Falcon-512 (Lattice-Based) + SHA3-384
-*   **Network:** Solana (Token-2022 Standard)
-*   **Total Supply:** 1,000,000,000 $QBTC
-*   **Burn Mechanism:** 1% on protected transactions
-
-## 3. Roadmap
-*   **2026:** V1.1.0 Research Simulation & Community Launch.
-*   **2027:** Full Migration to Rust + Anchor and Real ML-DSA.
-*   **2028:** "The First Leap" — Strategic 50% supply burn.
-*   **2032:** Global Quantum Resistance Maturity.
+$QBTC is the first memecoin on Solana built around the quantum defense narrative.
 
 ---
-**Disclaimer:** This is a research prototype. DYOR.
+
+## 2. The Quantum Threat
+Modern blockchains rely on ECDSA/Ed25519 signatures, which will become vulnerable once large-scale quantum computers appear. Malicious actors are already collecting encrypted data today for future decryption (HNDL attacks).
+
+**W-Protocol** provides a forward-looking defensive layer using **Lattice-Based Cryptography**.
+
+---
+
+## 3. W-Protocol v1.1.0 Architecture (Simulation)
+*   **Falcon-512 Lattice Simulation**
+*   **Q-Shield Active Defense**
+*   **Hybrid Security Model**
+*   **W-Vault** — Conceptual non-custodial protection
+
+---
+
+## 4. Technical Specifications
+*   **Network:** Solana (Token-2022)
+*   **Total Supply:** 1,000,000,000 $QBTC
+*   **Mint Authority:** Revoked
+*   **Burn:** 1% on protected transactions + strategic burns
+
+---
+
+## 5. Roadmap
+*   **2026** — V1.1.0 Simulation + Listings
+*   **2027** — Migration to Rust + Anchor + Real Falcon-512
+*   **2028** — First Major Supply Burn (~50%)
+*   **2032** — Second Major Burn + Ecosystem Expansion
+
+---
+
+## 🔗 Official Links
+*   🌐 **Website:** [qbtcwp.io](http://qbtcwp.io)
+*   🐦 **X / Twitter:** [@QBTCWPROTOCOL](https://x.com)
+*   ✈️ **Telegram:** [QuantumBTC_Official](https://t.me)
+*   📊 **DEXScreener:** [View Chart](https://dexscreener.com)
+
+---
+
+**CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
