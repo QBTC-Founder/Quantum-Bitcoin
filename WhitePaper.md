@@ -1,85 +1,99 @@
-# 🛡️ W-Protocol Technical Whitepaper (V2.1)
+# 🛡️ W-Protocol v1.2 — Quantum Bitcoin ($QBTC)
+**Post-Quantum Defense Layer for Solana (Falcon-512 Alignment)**
 
-**Project:** Quantum Bitcoin ($QBTC) V2.1  
-**Security Standard:** Post-Quantum Lattice Defense (Hybrid - Falcon-512)  
-**Network:** Solana (Token-2022)  
-**Status:** Mainnet Live — V2.1 Infrastructure (Simulation Phase)
+**Official Contract Address:**  
+`8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
 
----
-
-## 1. The Quantum Threat: Shor’s Algorithm & HNDL 🛡️
-
-Standard blockchain encryption (ECDSA/Ed25519) is vulnerable to quantum computers. Shor’s algorithm can factorize keys in polynomial time once sufficiently powerful quantum hardware appears.  
-
-Additionally, **"Harvest Now, Decrypt Later" (HNDL)** attacks are already a real threat: malicious actors are collecting encrypted data today to decrypt it later when quantum computers mature.  
-
-W-Protocol is engineered to neutralize these long-term risks.
+**Version:** 1.2 (Research Simulation)  
+**Date:** May 2026
 
 ---
 
-## 2. W-Protocol v1.1.0: The Q-Shield Architecture 🛡️
+## 1. Executive Summary
 
-The W-Protocol introduces a **hybrid security layer**. It utilizes **Lattice-Based Cryptography**, focusing on the **Short Integer Solution (SIS)** and **Learning With Errors (LWE)** problems. 
+W-Protocol is a research simulation of a hybrid post-quantum security layer designed for the Solana blockchain. It aligns with Solana’s official Post-Quantum Cryptography (PQC) roadmap and demonstrates protection against future quantum computing threats — specifically Shor’s algorithm and “Harvest Now, Decrypt Later” (HNDL) attacks.
 
-**UPDATE:** In alignment with Solana's official roadmap, W-Protocol adopts the **Falcon-512** standard for compact and efficient quantum-resistant signatures.
-
-### 2.1 Active Defense: Q-Shield Mode 🛡️🛡️🛡️
-- **Anomaly Detection:** Q-Shield scans for non-classical transaction patterns and potential quantum-probing.
-- **Instant Hardening:** Upon detection, the protocol automatically upgrades signature requirements and isolates vulnerable nodes.
-
-### 2.2 W-Vault: Advanced Asset Protection 🔐
-W-Vault acts as a decentralized "Security Wrapper":
-- **Cryptographic Wrapping:** Users can wrap $QBTC into a reinforced envelope.
-- **Non-Custodial:** Users retain 100% control of their private keys.
-
-> **Important Note:** Current version is an **improved simulation**. Full production version with real Falcon/Dilithium is planned for 2027 (Rust + Anchor).
+$QBTC is the first memecoin on Solana built around the quantum defense narrative.
 
 ---
 
-## 3. AI & Guardian Infrastructure 🛡️
+## 2. The Quantum Threat
 
-The protocol serves as a secure gateway for Autonomous AI Agents, secured by decentralized **Guardians**. This infrastructure ensures that AI-driven transactions remain secure even in a post-quantum environment.
+Modern blockchains rely on ECDSA/Ed25519 signatures, which will become vulnerable once large-scale quantum computers appear.  
+Malicious actors are already collecting encrypted data today for future decryption (HNDL attacks).
+
+**W-Protocol** provides a forward-looking defensive layer using **Lattice-Based Cryptography** — the same foundation chosen by NIST for post-quantum standards (Falcon-512, Dilithium, Kyber).
 
 ---
 
-## 4. Quantum Tokenomics (Model 2.1) 📈
+## 3. W-Protocol v1.2 Architecture (Simulation)
 
-- **Total Supply:** 1,000,000,000 $QBTC (Fixed)
-- **Burn Mechanism:** 1% automatic on protected transactions + strategic burns
+### Core Components:
+- **Falcon-512 Lattice Simulation** — Key generation and signature framework modeling
+- **Q-Shield Active Defense** — Simulated anomaly detection and instant protection activation
+- **Hybrid Security Model** — Classical + Post-Quantum layers
+- **W-Vault** — Conceptual non-custodial cryptographic envelope for asset protection
+
+> **Important Note:**  
+> Current version is a **research prototype / simulation**.  
+> Full on-chain implementation (Rust + Anchor Framework + real Falcon-512) is planned for 2027 after Solana’s PQC upgrades.
+
+---
+
+## 4. Technical Specifications
+
+- **Network:** Solana (Token-2022 Standard)
+- **Token:** Quantum Bitcoin ($QBTC)
+- **Total Supply:** 1,000,000,000 (Fixed)
 - **Mint Authority:** Revoked
-- **CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
-
-**First Leap (April 2028)** — 50% supply reduction 💎  
-**Legacy Cycle** — further burns for scarcity.
+- **Burn Mechanism:** 1% automatic on protected transactions + strategic burns
+- **Simulation Features:** Falcon-512 key gen, Q-Shield activation, supply burn modeling
 
 ---
 
-## 5. Strategic Roadmap (2026 – 2032) 🗺️
+## 5. Quantum Tokenomics
 
-**2026:** Launch, listings, Python simulation + Falcon-512 integration. 🚀  
-**2027:** W-Vault + Rust + real PQC Implementation. 🛡️  
-**2028:** First major burn (50% reduction). 💎  
-**2032:** Second burn + Ecosystem maturity. 🔄
-
----
-
-## 6. Conclusion 🛡️
-
-QBTC V2.1 with W-Protocol v1.1.0 is defensive infrastructure for the quantum era.
+- **Hyper-Deflationary Model**
+- **Automatic 1% Burn** on every protected transaction
+- **First Major Burn:** April 2028 (significant supply reduction)
+- **Long-term Scarcity:** Additional burns planned through 2032
 
 ---
 
-**Disclaimer**  
-This is a living document. Post-quantum cryptography in production requires professional independent audits. All interactions with $QBTC are at your own risk. DYOR.
+## 6. Roadmap
 
-**© 2026 QBTC Project • W-Protocol Team**
+**2026 — Genesis Phase**  
+- V1.2 Simulation Release  
+- Listings (DexScreener, Birdeye, CoinGecko, CMC in progress)  
+- Community Growth  
+
+**2027 — Quantum Upgrade**  
+- Rust + Anchor development  
+- Real Falcon-512 / ML-DSA implementation  
+- W-Vault interface launch  
+
+**2028 — First Leap**  
+- Major supply burn (target ~50% reduction)  
+
+**2032 — Maturity**  
+- Second major burn + ecosystem expansion  
 
 ---
 
 ## 🔗 Official Links
 
-🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io)  
-🐦 **TWITTER:** [Follow](https://x.com)  
-✈️ **TELEGRAM:** [Join Community](https://t.me)  
-📊 **DEX:** [Chart](https://dexscreener.com)  
+🌐 **Website:** [https://qbtcwp.io](https://qbtcwp.io)  
+🐦 **X / Twitter:** [https://x.com/QBTCWPROTOCOL](https://x.com/QBTCWPROTOCOL)  
+✈️ **Telegram:** [https://t.me/QuantumBTC_Official](https://t.me/QuantumBTC_Official)  
+📊 **DEXScreener:** [https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu](https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu)  
+📄 **GitHub:** (добавишь после создания репозитория)
+
+---
+
 **CA:** `8dLMx23WLLoTyf3EEnkM7tNEKHhDfQ42sLo2TdQypump`
+
+**Disclaimer**  
+This project is in early research stage. The current Python simulation is for demonstration and educational purposes only. Post-quantum cryptography in production requires independent professional audits. All interactions with $QBTC are at your own risk. DYOR.
+
+**Made for the quantum-safe future.**  
+**W-Protocol Team • QBTC Community • 2026**
