@@ -61,7 +61,7 @@ Malicious actors are already collecting encrypted data today for future decrypti
 *   🌐 **Website:** [qbtcwp.io](https://qbtcwp.io)
 *   🐦 **X / Twitter:** [@QBTCWPROTOCOL](https://x.com/QBTCWPROTOCOL)
 *   ✈️ **Telegram:** [QuantumBTC_Official](https://t.me/QuantumBTC_Official)
-*   📊 **DEXScreener:** [View Chart](https://dexscreener.com/solana/6yzejqgguzysrt3dfycbdchdmvnjkdz9shkbhugmwhuu)
+*   📊 **DEXScreener:** [View Chart](https://dexscreener.com/solana/hdau92scgqqrcvaqp4afkbkrfxjbjixndxnqd6bcpms4)
 
 ---
 
