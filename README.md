@@ -78,9 +78,9 @@ Execution (on-chain settlement)
 
 ---
 
-##6
 
-## 🔗 Official Links
+
+## 6. 🔗 Official Links
 
 🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io)  
 🐦 **TWITTER:** [Follow](https://x.com/QBTCWPROTOCOL)  
