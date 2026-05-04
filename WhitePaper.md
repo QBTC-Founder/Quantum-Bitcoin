@@ -74,7 +74,6 @@ W-Protocol is a research-driven adaptive framework and does not claim production
 🐦 **TWITTER:** [Follow](https://x.com/QBTCWPROTOCOL)  
 ✈️ **TELEGRAM:** [Join Community](https://t.me/QuantumBTC_Official)  
 📊 **DEXSCREENER:** [View Chart](https://dexscreener.com/solana/hdau92scgqqrcvaqp4afkbkrfxjbjixndxnqd6bcpms4)  
-📄 **WHITEPAPER:** [Read Docs](WhitePaper.md)
 
 ---
 
