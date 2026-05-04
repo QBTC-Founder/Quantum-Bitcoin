@@ -78,12 +78,16 @@ Execution (on-chain settlement)
 
 ---
 
+##6
+
 ## 🔗 Official Links
 
-- 🌐 Website: http://qbtcwp.io  
-- 🐦 X / Twitter: https://x.com/QBTCWPROTOCOL  
-- ✈️ Telegram: https://t.me/QuantumBTC_Official  
-- 📊 DexScreener: https://dexscreener.com/solana/hdau92scgqqrcvaqp4afkbkrfxjbjixndxnqd6bcpms4  
+🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io)  
+🐦 **TWITTER:** [Follow](https://x.com/QBTCWPROTOCOL)  
+✈️ **TELEGRAM:** [Join Community](https://t.me/QuantumBTC_Official)  
+📊 **DEXSCREENER:** [View Chart](https://dexscreener.com/solana/hdau92scgqqrcvaqp4afkbkrfxjbjixndxnqd6bcpms4)  
+📄 **WHITEPAPER:** [Read Docs](WhitePaper.md)
+
 
 ---
 
