@@ -74,7 +74,7 @@ W-Protocol generates value through multiple streams beyond the $QBTC asset:
 *   **Protocol-as-a-Service (PaaS):** B2B licensing of the W-Vault infrastructure for other Solana-based projects.
 *   **AI-Shield Fees:** A service fee for high-priority transactions processed through the Q-Shield adaptive analysis layer.
 *   **Intelligence Oracles:** Monetizing real-time network threat data for third-party institutional DeFi platforms.
-## 8. Official Linnks
+## 8. Official Links
 🌐 **WEBSITE:** [qbtcwp.io](http://qbtcwp.io)  
 🐦 **TWITTER:** [Follow](https://x.com/QBTCWPROTOCOL)  
 ✈️ **TELEGRAM:** [Join Community](https://t.me/QuantumBTC_Official)  
