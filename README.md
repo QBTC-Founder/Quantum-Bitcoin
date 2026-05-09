@@ -37,10 +37,7 @@ Instead, it modifies and validates transaction behavior through protocol rules.
 ---
 
 ### 🛡️ Q-Shield
-Q-Shield is a real-time behavioral analysis system that monitors transaction activity and assigns dynamic risk scores.
-
-It continuously evaluates network patterns and feeds risk signals into W-Vault to influence transaction processing decisions.
-
+Q-Shield is an AI-driven behavioral analysis system that monitors network activity to assign dynamic risk scores in real-time.By utilizing machine learning models to analyze transaction entropy, it identifies potential anomalies and feeds predictive risk signals into W-Vault. This creates an adaptive defense layer capable of mitigating both classical and emerging quantum-level threats.
 ---
 
 ### 📉 Burn Engine
