@@ -91,8 +91,6 @@ Execution (on-chain settlement)
 
 ---
 
-## 7 Disclaimer
----
 
 ## 🛡️ Protocol Status: Research & Alpha Simulation
 
