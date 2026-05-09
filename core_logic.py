@@ -1,132 +1,41 @@
-"""
-W-Protocol v1.1.0 — Quantum Bitcoin ($QBTC)
-CAR Logic Layer (Core Adaptive Risk Model)
-
-This module defines the internal transaction logic layer
-used by W-Vault and Q-Shield.
-
-Network: Solana (conceptual layer simulation)
-"""
-
-import hashlib
 import time
-import secrets
-from dataclasses import dataclass
-
-# ===================== CONFIG =====================
-TOTAL_SUPPLY = 1_000_000_000
-BURN_RATE = 0.01
-PROTOCOL_NAME = "W-Protocol v1.1.0"
-TICKER = "QBTC"
-# ==================================================
-
-
-# ===================== CORE MODELS =====================
-
-@dataclass
-class Transaction:
-    sender: str
-    receiver: str
-    amount: float
-    timestamp: float
-
-
-class QShield:
-    """
-    Real-time risk analysis layer.
-    Produces a dynamic risk score based on transaction behavior.
-    """
-
-    def analyze(self, tx: Transaction) -> float:
-        base_score = 0.1
-
-        # lightweight behavioral heuristics
-        if tx.amount > 10000:
-            base_score += 0.3
-
-        if tx.amount > 100000:
-            base_score += 0.4
-
-        # time-based randomness (simulation of network volatility)
-        entropy = int(hashlib.sha256(str(tx.timestamp).encode()).hexdigest(), 16)
-        base_score += (entropy % 100) / 1000
-
-        return round(min(base_score, 1.0), 4)
-
-
-class WVault:
-    """
-    Transaction wrapper layer.
-    Applies protocol rules before execution.
-    """
-
-    def __init__(self):
-        self.burned_total = 0
-
-    def process(self, tx: Transaction, risk_score: float):
-        """
-        Applies W-Protocol logic before execution.
-        """
-
-        # risk-based adjustment
-        if risk_score > 0.7:
-            return {
-                "status": "rejected",
-                "reason": "high_risk_detected"
-            }
-
-        burn = tx.amount * BURN_RATE
-        self.burned_total += burn
-
-        net_amount = tx.amount - burn
-
-        return {
-            "status": "approved",
-            "original_amount": tx.amount,
-            "burned": burn,
-            "net_amount": net_amount
-        }
-
-
-# ===================== PROTOCOL ENGINE =====================
+from q_shield import QShield
+from w_vault import WVault
 
 class WProtocolEngine:
     """
-    Core orchestration layer combining Q-Shield + W-Vault.
+    Core Orchestrator for W-Protocol v1.1.0 ($QBTC).
+    Connects Q-Shield analysis with W-Vault execution.
     """
-
     def __init__(self):
-        self.qshield = QShield()
+        self.shield = QShield()
         self.vault = WVault()
 
-    def execute_transaction(self, sender: str, receiver: str, amount: float):
-        tx = Transaction(
-            sender=sender,
-            receiver=receiver,
-            amount=amount,
-            timestamp=time.time()
-        )
-
-        risk = self.qshield.analyze(tx)
-        result = self.vault.process(tx, risk)
-
+    def execute(self, sender, receiver, amount):
+        # 1. Risk Evaluation via Q-Shield
+        risk = self.shield.analyze(amount)
+        
+        # 2. Protocol processing via W-Vault
+        execution_result = self.vault.process_transaction(amount, risk)
+        
         return {
-            "protocol": PROTOCOL_NAME,
-            "ticker": TICKER,
+            "protocol_version": "1.1.0",
+            "asset": "QBTC",
             "risk_score": risk,
-            "result": result
+            "execution": execution_result
         }
 
-
-# ===================== DEMO =====================
-
 if __name__ == "__main__":
+    # Demonstration of the protocol logic
     engine = WProtocolEngine()
-
-    sample = engine.execute_transaction(
-        sender="wallet_A",
-        receiver="wallet_B",
-        amount=50000
-    )
-
-    print(sample)
+    
+    # Simulating a sample transaction
+    result = engine.execute("Wallet_Origin", "Wallet_Destination", 75000)
+    
+    print("--- W-Protocol Execution Log ---")
+    print(f"Status: {result['execution']['status']}")
+    print(f"Risk Score: {result['risk_score']}")
+    
+    if result['execution']['status'] == "APPROVED":
+        print(f"Burned Amount: {result['execution']['burned']} QBTC")
+        print(f"Net Transferred: {result['execution']['net_amount']} QBTC")
