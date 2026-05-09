@@ -3,7 +3,7 @@ W-Protocol: W-Vault Module (v1.1.0)
 Execution layer implementing the adaptive Burn Engine.
 Focuses on protocol-level transaction security and supply adjustment.
 """
-class W-Vault:
+class WVault:
     """
     W-Vault: Transaction Execution Layer.
     Implements Burn Engine and protocol-level security rules.
