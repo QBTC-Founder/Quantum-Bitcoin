@@ -1,3 +1,8 @@
+"""
+W-Protocol: Q-Shield Module (v1.1.0)
+Adaptive risk scoring system. 
+Simulates entropy-based analysis for post-quantum defense layers.
+"""
 import hashlib
 import time
 
