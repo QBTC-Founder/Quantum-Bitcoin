@@ -82,6 +82,6 @@ W-Protocol is a research-driven adaptive framework and does not claim production
 
 ---
 
-## 8. Security Roadmap & Disclaimer.                                                             W-Protocol is an evolving security architecture. Current v1.1.0 modules are designed as Proof-of-Concept (PoC) implementations. To ensure production-level cryptographic integrity, the protocol is slated for comprehensive external audits (Target: 2027 Expansion Phase). Until then, it should be treated as experimental infrastructure for the $QBTC ecosystem.
-
+## 8. Security Roadmap & Disclaimer.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+W-Protocol is an evolving security architecture. Current v1.1.0 modules are designed as Proof-of-Concept (PoC) implementations. To ensure production-level cryptographic integrity, the protocol is slated for comprehensive external audits (Target: 2027 Expansion Phase). Until then, it should be treated as experimental infrastructure for the $QBTC ecosystem.
 
