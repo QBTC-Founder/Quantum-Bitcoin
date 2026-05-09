@@ -91,6 +91,13 @@ Execution (on-chain settlement)
 
 ---
 
-## ⚠️ Disclaimer
+## 7 Disclaimer
+---
 
-W-Protocol is an experimental framework and does not represent production-level cryptographic security.
+## 🛡️ Protocol Status: Research & Alpha Simulation
+
+W-Protocol v1.1.0 is currently in its **active R&D phase**. The codebase provides a functional simulation of adaptive security layers (Q-Shield) and automated burn mechanics (W-Vault) designed for the Solana ecosystem.
+
+*   **Phase:** Simulation & Research (as per 2026 Roadmap).
+*   **Audit Status:** Building in public for community review. We are currently preparing technical documentation for formal external audits to validate our "Falcon-512 Aligned" logic.
+*   **Usage Note:** This implementation is intended for research and narrative-driven exploration. It represents a theoretical approach to post-quantum risk mitigation.
