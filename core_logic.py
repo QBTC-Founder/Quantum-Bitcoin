@@ -1,3 +1,7 @@
+"""
+W-Protocol: Core Orchestrator ($QBTC)
+Integrates Q-Shield analysis with W-Vault execution for adaptive asset protection.
+"""
 import time
 from q_shield import QShield
 from w_vault import WVault
