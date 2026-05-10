@@ -45,6 +45,8 @@ Protocol-based deflation mechanism:
 - Fixed supply with deflationary mechanics
 
 ---
+### 🛡️ Falcon-512 Alignment
+W-Protocol is architected to align with **Falcon-512**, a lattice-based signature scheme. We prioritized Falcon-512 due to its minimal signature footprint, ensuring compatibility with Solana’s transaction size limits (MTU) while providing a robust framework for post-quantum resistance.
 
 ## 4. System Flow
 
