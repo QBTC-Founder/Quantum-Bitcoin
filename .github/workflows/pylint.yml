@@ -1,4 +1,4 @@
-name: Pylint
+name: .github
 on: [push]
 jobs:
   check:
