@@ -1,15 +1,11 @@
 name: Pylint
 on: [push]
 jobs:
-  build:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
-      - name: Start Protocol
-        run: |
-          python core_logic.py
-          echo "W-Protocol is ONLINE"
+          python-version: '3.10'
+      - run: python core_logic.py
