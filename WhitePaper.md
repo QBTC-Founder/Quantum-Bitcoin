@@ -92,3 +92,8 @@ W-Protocol generates value through multiple streams beyond the $QBTC asset:
 ## 9. Security Roadmap & Disclaimer.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 W-Protocol is an evolving security architecture. Current v1.1.0 modules are designed as Proof-of-Concept (PoC) implementations. To ensure production-level cryptographic integrity, the protocol is slated for comprehensive external audits (Target: 2027 Expansion Phase). Until then, it should be treated as experimental infrastructure for the $QBTC ecosystem.
 
+### 📝 Research Note: W-Protocol v1.2.0 Expansion Plans
+The development team is actively evaluating a transition to a 3% ecosystem fee model for the upcoming W-Protocol v1.2.0 upgrade:
+- 1% Deflationary Burn Engine (Active)
+- 2% Real-Yield Staking Pool (Under active R&D)
+This model aims to capture value directly from network velocity and reward long-term holders.
